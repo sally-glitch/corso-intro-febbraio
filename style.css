@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+/*-------------------nav----------*/
+
+nav a{
+    color: white;
+    background-color: chocolate ;
+    width: 10%;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+
+
+/*---------------intro---------------*/
+
+
+
+h1{color: blue;
+
+}
+
+.intro_descripion{
+    color: blueviolet;
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 200px;
+    height: 30%;
+    padding: 20px;
+    margin: 50px;
+
+} 
+
+
+.card{
+    width: 200px;
+    border: 1px solid black;
+    left: 40%;
+    position: relative;
+    
+    
+}
+
+#close-icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#card-img-container{
+    width: 100%;
+}
+
+#card-img-container img{
+    width: 100%;
+}
+
+.flex-container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+    background-color: rgb(230, 42, 211);
+}
+
+.blue{
+    background-color: cornflowerblue;
+}
+
+.green{
+    background-color: chartreuse;
+}
+
+.purple{
+    background-color: purple;
+}
+
+ul{
+    padding: 20px;
+    list-style: none;
+
+}
